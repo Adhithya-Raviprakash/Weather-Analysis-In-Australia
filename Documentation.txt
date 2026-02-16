@@ -74,13 +74,13 @@ Model Saving (Pickle)
 Prediction System
 
 
-5️⃣ Final Output
+ Final Output
 
 The model predicts:
 
-0 → No Rain Tomorrow ☀️
+0 → No Rain Tomorrow 
 
-1 → Rain Tomorrow 🌧️
+1 → Rain Tomorrow 
 
 
 Technologies Used:
@@ -97,16 +97,11 @@ Model Strengths:
 ✔ Can estimate feature importance
 ✔ Deployment-ready
 
-8️⃣ Future Improvements
-
+Future Improvements:
 Use Pipeline + ColumnTransformer
-
 Handle class imbalance
-
 Hyperparameter tuning
-
 Deploy using Flask / FastAPI
-
 Add frontend UI
-
 Use XGBoost for higher accuracy
+
