@@ -1,0 +1,112 @@
+This Is A Weather Analysis Project to Learn The Basicis Of Data Science And Python 
+
+Through The Concepts Of Data Preprocessing And ML Techniques
+
+Project Overview
+ Title: Rainfall Prediction Using Random Forest Classifier
+
+Objective
+To build a machine learning model that predicts whether it will rain tomorrow based on historical weather data.
+
+Problem Type
+Binary Classification Problem
+
+Target variable:
+RainTomorrow
+
+0 → No Rain
+
+1 → Rain
+Dataset Description
+
+The dataset contains historical weather observations including:
+
+Temperature Features:
+MinTemp
+MaxTemp
+Temp9am
+Temp3pm
+
+Rain Features:
+Rainfall
+RainToday
+RainTomorrow (Target)
+Wind Features
+WindGustSpeed
+WindSpeed9am
+WindSpeed3pm
+WindGustDir
+WindDir9am
+WindDir3pm
+
+Cloud & Humidity:
+Humidity9am
+Humidity3pm
+Cloud9am
+Cloud3pm
+
+Other Features:
+Location
+Pressure9am
+Pressure3pm
+Sunshine
+Evaporation
+
+
+PROJECT ARCHITECTURE:
+
+Raw Data
+   ↓
+Data Cleaning
+   ↓
+Feature Engineering
+   ↓
+Encoding
+   ↓
+Train/Test Split
+   ↓
+Random Forest Model
+   ↓
+Evaluation
+   ↓
+Model Saving (Pickle)
+   ↓
+Prediction System
+
+
+5️⃣ Final Output
+
+The model predicts:
+
+0 → No Rain Tomorrow ☀️
+
+1 → Rain Tomorrow 🌧️
+
+
+Technologies Used:
+Python
+Pandas
+NumPy
+Scikit-learn
+Pickle
+Jupyter Notebook
+
+Model Strengths:
+✔ Handles nonlinear patterns
+✔ Good performance on large dataset
+✔ Can estimate feature importance
+✔ Deployment-ready
+
+8️⃣ Future Improvements
+
+Use Pipeline + ColumnTransformer
+
+Handle class imbalance
+
+Hyperparameter tuning
+
+Deploy using Flask / FastAPI
+
+Add frontend UI
+
+Use XGBoost for higher accuracy
